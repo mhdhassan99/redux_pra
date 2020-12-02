@@ -3,9 +3,9 @@ import Todo from './Todo'
 
 const TodoList = ({todos, toggleTodo}) => {
     return (
-        <div>
+        <div className="todo-list-container">
             <ul>
-                {Todos.map(todo => (
+                {todos.map(todo => (
                     <Todo />
                 ))}
             </ul>

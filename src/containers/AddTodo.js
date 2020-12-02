@@ -23,10 +23,10 @@ const AddTodo = ({dispatch}) => {
             >
 
                 <div className="input-container">
-                    <input className="input" type='text' ref={el => (input = el)}/>
+                    <input className="input-field" type='text' ref={el => (input = el)}/>
                 </div>
-                <div className="button-container">
-                    <button className="button" type='submit'>Add Todo</button>
+                <div className="add-button-container">
+                    <button className="add-button" type='submit'>Add Todo</button>
                 </div>
             </form>
         </div>

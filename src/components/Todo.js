@@ -1,9 +1,11 @@
 import React from 'react';
 
 const Todo = ({ onClick, completed, text }) => (
-    <li>
-        Task
-    </li>
+    <div className="todo-container">
+        <li className="todo-item">
+            Task
+        </li>
+    </div>
 )
 
 export default Todo;
