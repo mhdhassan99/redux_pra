@@ -6,7 +6,7 @@ export const addTodo = (text) => ({
     text
 });
 
-export const toggleTodo = id => ({
+export const toggleTodo = (id) => ({
     type: 'TOGGLE_TODO',
     id
 })
@@ -16,3 +16,8 @@ export const visibilityFilters = {
     SHOW_COMPLETED: 'SHOW_COMPLETED',
     SHOW_ACTIVE: 'SHOW_ACTIVE'
 }
+
+export const setVisibilityFilter = (filter) => ({
+    type: 'SET_VISIBILITY_FILTER',
+    filter
+})
