@@ -70,3 +70,45 @@ button:focus {
   font-size: xx-large;
   color: coral;
 }
+
+.all-buttons-container {
+  margin-left: 30em;
+  
+  align-items: center;
+}
+
+.all-button {
+  width: 10em;
+  height: 40px;
+  border-radius: 100em;
+  border: groove;
+  border-color: #e2fb8a;
+  text-align: center;
+  -webkit-text-emphasis: double-circle;
+  background: beige;
+  border-width: 5px;
+}
+
+.active-button {
+  width: 10em;
+  height: 40px;
+  border-radius: 100em;
+  border: groove;
+  border-color: #e2fb8a;
+  text-align: center;
+  -webkit-text-emphasis: double-circle;
+  background: beige;
+  border-width: 5px;
+}
+
+.completed-button {
+  width: 10em;
+  height: 40px;
+  border-radius: 100em;
+  border: groove;
+  border-color: #e2fb8a;
+  text-align: center;
+  -webkit-text-emphasis: double-circle;
+  background: beige;
+  border-width: 5px;
+}
